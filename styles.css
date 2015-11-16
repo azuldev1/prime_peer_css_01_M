@@ -18,6 +18,56 @@
  * 4. Set the dimensions, padding, margins, and any other styles you like to the aforementioned links.
  *
  */
+ nav ul {
+   padding: 0;
+   margin: 0 auto;
+   display: block;
+   list-style-type: none;
+   width: 800px;
+
+
+
+ }
+ nav ul li  {
+   float: left;
+  width: 15%;
+
+
+ }
+
+ main {
+  clear: left;
+  float: right;
+  display: inline-block;
+  width: 500px;
+ }
+
+ aside {
+   float: left;
+   display: inline-block;
+   width: 200px;
+ }
+
+ nav ul li a {
+  display: block;
+
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+ }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  clear: both;
+  width: 33%;
+  left: 33%;
+  right: 33%;
+}
+
+ footer p {
+   display: inline-block;
+ }
 
 /* Switch! Let your partner drive now. */
 
